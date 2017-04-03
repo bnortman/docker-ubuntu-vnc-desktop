@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Doro Wu <fcwu.tw@gmail.com>
+FROM ubuntu:16.04
+MAINTAINER Cap10Bill <cap10bill@yahoo.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /home/ubuntu
