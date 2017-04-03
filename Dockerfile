@@ -13,7 +13,7 @@ RUN apt-get update \
     && curl -SL http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key | sudo apt-key add - \
     && add-apt-repository ppa:fcwu-tw/ppa \
     && apt-get update \
-    && apt-get install -y --force-yes --no-install-recommends \
+    && apt-get install -y --allow --no-install-recommends \
         supervisor \
         openssh-server pwgen sudo vim-tiny \
         net-tools \
