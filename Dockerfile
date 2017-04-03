@@ -1,4 +1,4 @@
-FROM ubuntu:16.04.2
+FROM ubuntu:16.04
 MAINTAINER Cap10Bill <cap10bill@yahoo.com>
 
 ENV DEBIAN_FRONTEND noninteractive
